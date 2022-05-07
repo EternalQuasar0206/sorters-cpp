@@ -16,7 +16,7 @@ int_list sort(int_list v) {
 } 
 
 int main() {
-    std::cout << "Bubble sort C++ implementation \n";
+    std::cout << "Bubble sort C++ implementation \n\n";
     
     int_list values;
     values.push_back(20);
@@ -30,6 +30,8 @@ int main() {
     int_list sorted = sort(values);
 
     printf("%d %d %d", sorted[0], sorted[1], sorted[2]);
+
+    std::cout << "\n\n";
 
     return 0;
 }
