@@ -1,7 +1,5 @@
 #include <iostream>
-#include <vector>
-
-typedef std::vector<int> int_list;
+#include "int_list.h"
 
 int_list sort(int_list v) {
     for (int i = 0; i < v.size(); i++) {
