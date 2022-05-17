@@ -30,7 +30,7 @@ int main() {
 
     int maxSequenceLength = getMaxNumberSequence(input);
 
-    printf("Sequência máxima de números '1': %i", maxSequenceLength);
+    printf("Max sequence length of characters '1': %i", maxSequenceLength);
 
     return 0;
 }

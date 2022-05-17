@@ -15,3 +15,7 @@ g++ mergeSort.cpp -o .\bin\mergeSort.exe
 :: Quick sort algorithm
 g++ quickSort.cpp -o .\bin\quickSort.exe
 .\bin\quickSort.exe
+
+:: Order detector algorithm (returns the max sequence of inserted numbers)
+g++ orderDetector.c -o .\bin\orderDetector.exe
+.\bin\orderDetector.exe
