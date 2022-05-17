@@ -19,3 +19,7 @@ g++ quickSort.cpp -o .\bin\quickSort.exe
 :: Order detector algorithm (returns the max sequence of inserted numbers)
 g++ orderDetector.c -o .\bin\orderDetector.exe
 .\bin\orderDetector.exe
+
+:: Detect first digit algorithm (returns position of the first numeric digit found)
+g++ detectFirstDigit.c -o .\bin\detectFirstDigit.exe
+.\bin\detectFirstDigit.exe
