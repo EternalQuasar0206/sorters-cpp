@@ -23,3 +23,6 @@ g++ orderDetector.c -o .\bin\orderDetector.exe
 :: Detect first digit algorithm (returns position of the first numeric digit found)
 g++ detectFirstDigit.c -o .\bin\detectFirstDigit.exe
 .\bin\detectFirstDigit.exe
+
+g++ structReading.c -o .\bin\structReading.exe
+.\bin\structReading.exe
