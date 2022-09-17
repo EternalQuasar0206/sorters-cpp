@@ -1,4 +1,4 @@
 Requires g++ compiler to work.
 
-## Commands
+## Commands (Windows)
 `.\run` Executes all demonstrations
